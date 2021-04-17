@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://paidayu.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Apr 2021 14:20:46 +0800</lastBuildDate><atom:link href="https://paidayu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>搭建第一个hugo博客的过程</title>
+      <link>https://paidayu.github.io/post/blog/</link>
+      <pubDate>Sat, 17 Apr 2021 14:20:46 +0800</pubDate>
+      
+      <guid>https://paidayu.github.io/post/blog/</guid>
+      <description>下载hugo 1.打开官网下载列表[hugo下载地址] :https://github.com/gohugoio/hugo/releases
+2.下载适配自己电脑系统的文件,我选的是hugo_0.82.0_Windows-64bit.zip
+3.放到d盘,将其更改名字为hugo
+4.右键我的电脑，点击属性–高级系统设置–环境变量–双击Path–新建–输入：D:\hugo
+5.win+r打开运行，输入cmd打开系统自带的命令行工具，输入hugo version，如果出现以下提示表示安装成功：
+6.hugo new site myblog表示会在当前根目录下创造一个myblog文件夹,里面就是网站结构,如图所示
+下载一个hugo主题 1.[hugo主题下载地址]:https://themes.gohugo.io/
+2.进入项目根目录下: cd myblog
+sdd
+3.输入git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 命令将主题下载到项目根目录下
+4.输入hugo server -t m10c &amp;ndash;buildDrafts用来开启服务,这时我们的博客网站就已经启动了</description>
+    </item>
+    
+  </channel>
+</rss>

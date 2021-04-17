@@ -23,7 +23,15 @@
 2.进入项目根目录下: cd myblog
 sdd
 3.输入git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 命令将主题下载到项目根目录下
-4.输入hugo server -t m10c &amp;ndash;buildDrafts用来开启服务,这时我们的博客网站就已经启动了</description>
+4.输入hugo server -t m10c &amp;ndash;buildDrafts用来开启服务,这时我们的博客网站就已经启动了
+将博客部署到GitHub上 1.在GitHub新建一个仓库 Repository name前面的格式是固定的,必须是自己的用户名,且全部小写
+2.部署到GitHub上 hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://paidayu.github.io/&amp;quot; &amp;ndash;buildDrafts
+3.将public文件夹传到GitHub上 1.进入public文件夹 cd public
+2.git init
+3.git add .
+4.git commit -m &amp;ldquo;我的hugo博客第一次提交&amp;rdquo;
+5.git remote add origin https://github.com/PaiDayu/paidayu.github.io.git
+6.git push -u origin master</description>
     </item>
     
   </channel>
